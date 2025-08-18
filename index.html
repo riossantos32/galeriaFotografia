@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Galería de Fotos y Videos</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Galería de Fotos</h1>
+      <p>Memes gracisos.</p>
+    </header>
+
+    <main class="container">
+      <section class="gallery" aria-label="Galería de imágenes y videos">
+        <!-- Imágenes -->
+        <a class="gallery__item" href="#item1">
+          <img src="meme1.jpg" alt="Meme 1" loading="lazy" decoding="async">
+        </a>
+        <a class="gallery__item" href="#item2">
+          <img src="meme2.jpg" alt="Meme 2" loading="lazy" decoding="async">
+        </a>
+        <a class="gallery__item" href="#item3">
+          <img src="meme3.jpg" alt="Meme 3" loading="lazy" decoding="async">
+        </a>
+        <a class="gallery__item" href="#item4">
+          <img src="meme4.jpg" alt="Meme 4" loading="lazy" decoding="async">
+        </a>
+        <a class="gallery__item" href="#item5">
+          <img src="meme5.jpg" alt="Meme 5" loading="lazy" decoding="async">
+        </a>
+        <a class="gallery__item" href="#item6">
+          <img src="meme6.jpg" alt="Meme 6" loading="lazy" decoding="async">
+        </a>
+        <a class="gallery__item" href="#item7">
+          <img src="meme7.jpg" alt="Meme 7" loading="lazy" decoding="async">
+        </a
+        <a class="gallery__item" href="#item8" aria-label="Reproducir video 1">
+          <img src="meme8.jpg" alt="Miniatura video 1" loading="lazy" decoding="async">
+        </a>
+        <a class="gallery__item" href="#item9" aria-label="Reproducir video 2">
+          <img src="meme9.jpg" alt="Miniatura video 2" loading="lazy" decoding="async">
+        </a>
+        <a class="gallery__item" href="#item10" aria-label="Reproducir video 3">
+          <img src="meme10.jpg" alt="Miniatura video 3" loading="lazy" decoding="async">
+        </a>
+        <a class="gallery__item" href="#item11" aria-label="Reproducir video 4">
+          <img src="meme11.jpg" alt="Miniatura video 4" loading="lazy" decoding="async">
+        </a>
+         <a class="gallery__item" href="#item11" aria-label="Reproducir video 4">
+          <img src="meme12.jpg" alt="Miniatura video 4" loading="lazy" decoding="async">
+        </a>
+         <a class="gallery__item" href="#item11" aria-label="Reproducir video 4">
+          <img src="meme13.jpg" alt="Miniatura video 4" loading="lazy" decoding="async">
+        </a>
+         <a class="gallery__item" href="#item11" aria-label="Reproducir video 4">
+          <img src="meme14.jpg" alt="Miniatura video 4" loading="lazy" decoding="async">
+        </a>
+         <a class="gallery__item" href="#item11" aria-label="Reproducir video 4">
+          <img src="meme15.jpg" alt="Miniatura video 4" loading="lazy" decoding="async">
+        </a>
+         <a class="gallery__item" href="#item11" aria-label="Reproducir video 4">
+          <img src="meme16.jpg" alt="Miniatura video 4" loading="lazy" decoding="async">
+        </a>
+         <a class="gallery__item" href="#item11" aria-label="Reproducir video 4">
+          <img src="meme17.jpg" alt="Miniatura video 4" loading="lazy" decoding="async">
+        </a>
+      </section>
+
+      <!-- Lightbox: 7 imágenes + 4 videos (11 items) con navegación circular -->
+      <article class="lightbox" id="item1">
+        <a class="lightbox__close" href="#" aria-label="Cerrar"></a>
+        <img src="meme1.jpg" alt="Meme 1">
+        <a class="lightbox__nav lightbox__prev" href="#item11" aria-label="Anterior"></a>
+        <a class="lightbox__nav lightbox__next" href="#item2" aria-label="Siguiente"></a>
+      </article>
+      <article class="lightbox" id="item2">
+        <a class="lightbox__close" href="#" aria-label="Cerrar"></a>
+        <img src="meme2.jpg" alt="Meme 2">
+        <a class="lightbox__nav lightbox__prev" href="#item1" aria-label="Anterior"></a>
+        <a class="lightbox__nav lightbox__next" href="#item3" aria-label="Siguiente"></a>
+      </article>
+      <article class="lightbox" id="item3">
+        <a class="lightbox__close" href="#" aria-label="Cerrar"></a>
+        <img src="meme3.jpg" alt="Meme 3">
+        <a class="lightbox__nav lightbox__prev" href="#item2" aria-label="Anterior"></a>
+        <a class="lightbox__nav lightbox__next" href="#item4" aria-label="Siguiente"></a>
+      </article>
+      <article class="lightbox" id="item4">
+        <a class="lightbox__close" href="#" aria-label="Cerrar"></a>
+        <img src="meme4.jpg" alt="Meme 4">
+        <a class="lightbox__nav lightbox__prev" href="#item3" aria-label="Anterior"></a>
+        <a class="lightbox__nav lightbox__next" href="#item5" aria-label="Siguiente"></a>
+      </article>
+      <article class="lightbox" id="item5">
+        <a class="lightbox__close" href="#" aria-label="Cerrar"></a>
+        <img src="meme5.jpg" alt="Meme 5">
+        <a class="lightbox__nav lightbox__prev" href="#item4" aria-label="Anterior"></a>
+        <a class="lightbox__nav lightbox__next" href="#item6" aria-label="Siguiente"></a>
+      </article>
+      <article class="lightbox" id="item6">
+        <a class="lightbox__close" href="#" aria-label="Cerrar"></a>
+        <img src="meme6.jpg" alt="Meme 6">
+        <a class="lightbox__nav lightbox__prev" href="#item5" aria-label="Anterior"></a>
+        <a class="lightbox__nav lightbox__next" href="#item7" aria-label="Siguiente"></a>
+      </article>
+      <article class="lightbox" id="item7">
+        <a class="lightbox__close" href="#" aria-label="Cerrar"></a>
+        <img src="meme7.jpg" alt="Meme 7">
+        <a class="lightbox__nav lightbox__prev" href="#item6" aria-label="Anterior"></a>
+        <a class="lightbox__nav lightbox__next" href="#item8" aria-label="Siguiente"></a>
+      </article>
+
+      <!-- Videos -->
+      <article class="lightbox" id="item8">
+        <a class="lightbox__close" href="#" aria-label="Cerrar"></a>
+        <video src="video1.mp4" controls preload="metadata"></video>
+        <a class="lightbox__nav lightbox__prev" href="#item7" aria-label="Anterior"></a>
+        <a class="lightbox__nav lightbox__next" href="#item9" aria-label="Siguiente"></a>
+      </article>
+      <article class="lightbox" id="item9">
+        <a class="lightbox__close" href="#" aria-label="Cerrar"></a>
+        <video src="video2.mp4" controls preload="metadata"></video>
+        <a class="lightbox__nav lightbox__prev" href="#item8" aria-label="Anterior"></a>
+        <a class="lightbox__nav lightbox__next" href="#item10" aria-label="Siguiente"></a>
+      </article>
+      <article class="lightbox" id="item10">
+        <a class="lightbox__close" href="#" aria-label="Cerrar"></a>
+        <video src="video3.mp4" controls preload="metadata"></video>
+        <a class="lightbox__nav lightbox__prev" href="#item9" aria-label="Anterior"></a>
+        <a class="lightbox__nav lightbox__next" href="#item11" aria-label="Siguiente"></a>
+      </article>
+      <article class="lightbox" id="item11">
+        <a class="lightbox__close" href="#" aria-label="Cerrar"></a>
+        <video src="video4.mp4" controls preload="metadata"></video>
+        <a class="lightbox__nav lightbox__prev" href="#item10" aria-label="Anterior"></a>
+        <a class="lightbox__nav lightbox__next" href="#item1" aria-label="Siguiente"></a>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      Hecho con ❤️ en HTML y CSS
+    </footer>
+  </body>
+</html> 
